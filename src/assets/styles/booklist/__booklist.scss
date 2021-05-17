@@ -1,0 +1,57 @@
+.booklist__searched-container {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.booklist_title {
+    text-align: center;
+
+    &::selection{
+        background: rgba(0, 0, 0, 0.377);
+    }
+}
+
+.booklist_input {
+    border: none;
+    width: 20%;
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(63, 63, 63);
+    color: white;
+}
+
+.w100{
+    width: 100% !important;
+    text-align: center;
+}
+
+.booklist__form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-search {
+    margin: 10px;
+    color: white;
+}
+
+.booklist__button {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(63, 63, 63);
+}
+
+@media screen and (max-width: 563px) {
+    .booklist_input {
+        width: 80%;
+    }
+}

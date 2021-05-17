@@ -1,0 +1,73 @@
+.book__card {
+    height: 270px;
+    margin: 20px 10px;
+    color: white;
+    font-weight: 300;
+}
+
+.favorite {
+    color: #efb810;
+    cursor: pointer;
+
+}
+
+.book__button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70%;
+    outline: none;
+    background: rgb(185, 185, 185);
+    font-weight: bold;
+
+    &.btn-favorite{
+        background: #efb810;
+    }
+
+    &:hover{
+        background: #efb810;
+    }
+    
+}
+
+
+.noFavorite {
+    cursor: pointer;
+    color: gray;
+}
+
+.borderFavorite img{
+    border:1px solid #efb810;
+    transition: border .3s ease;
+
+}
+
+img{
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 3px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.356);
+    width: 150px;
+    height: 220px;
+    background-attachment: fixed; 
+}
+
+@media screen and (max-width: 563px) {
+    .book__card {
+        height: 350px;
+    }
+    img {
+        width: 200px;
+        height: 270px;
+        object-fit: cover;
+    }
+}
+
+.character__details-star {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -25px;
+    left: 245px;
+}

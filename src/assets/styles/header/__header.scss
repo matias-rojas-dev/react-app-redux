@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style:none;
+    margin: 0 20px;
+}
+
+.header__lists {
+    display: flex;
+    margin: 20px;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 563px) {
+
+    li:last-child{
+        margin-right:0 ;
+    }
+
+    li{
+        margin-left: 0;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    .header__lists {
+        margin: 10px 2px;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: #21242b;
+    color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+@import './header/_header';
+@import './book/_book';
+@import './booklist/_booklist';
+@import './favorites-list/_favorites-list';
+@import './auth/_auth';
+@import './login/_login';
+@import './predefined/_predefined';
+@import './not-found/_not-found';

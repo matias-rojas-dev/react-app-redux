@@ -1,0 +1,27 @@
+.auth__information i, h3, button{
+    margin: 20px;
+}
+
+.auth__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    font-size: 25px;
+}
+
+
+.auth__logout {
+    background: rgba(0, 0, 0, 0.137);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 15px;
+    outline: none;
+    transition: background .3s ease;
+    &:hover{
+        background: rgba(0, 0, 0, 0.521);
+    }
+}
